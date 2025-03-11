@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Токен берётся из переменной окружения (Heroku Config Vars)
 import os
-TOKEN = os.getenv("7643599912:AAFHQv96CzWOZotSd1sDufCuZseZNEwzWfo")
+TOKEN = os.getenv("TOKEN")
 CHAT_START_TIME = {}
 USER_MESSAGES = {}
 
